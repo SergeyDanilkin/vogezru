@@ -1,0 +1,27 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+a, a:link, a:visited, a:hover {
+	text-decoration: none;
+}
+aside, nav, footer, header, section, main {
+	display: block;
+}
+ul {
+	padding-left: 15px;
+
+	li {
+		list-style-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOSIgaGVpZ2h0PSIxMCIgdmlld0JveD0iMCAwIDkgMTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0wIDguMzgxOTdWMS42MTgwM0MwIDAuODc0NjUyIDAuNzgyMzE1IDAuMzkxMTU3IDEuNDQ3MjIgMC43MjM2MDhMOC4yMTExNSA0LjEwNTU3QzguOTQ4MTkgNC40NzQxIDguOTQ4MTkgNS41MjU5IDguMjExMTQgNS44OTQ0M0wxLjQ0NzIxIDkuMjc2MzlDMC43ODIzMTMgOS42MDg4NCAwIDkuMTI1MzUgMCA4LjM4MTk3WiIgZmlsbD0iIzAwODlDQyIvPgo8L3N2Zz4K);
+		margin-bottom: 12px;
+	}
+} 
+
+
+input:focus, input:active, input:hover, button:focus, button:hover, button:active {
+	outline: none;
+}

@@ -1,0 +1,1062 @@
+- 
+  const app = {
+
+    mainMenu: [
+      { 'text': 'Home',  'href': 'index.html', icon: false},
+      { 'text': 'About us',  'href': 'about.html', icon: false},
+      { 'text': 'Services',  'href': 'services.html', icon: false,
+        'sub': [
+          'House renovations ',
+          'Condo renovations ',
+          'Basement renovations ',
+          'Commercial renovations ',
+        ]
+      },
+      { 'text': 'Areas',  'href': 'areas.html', icon: false,
+        'sub': [
+          'Aurora',
+          'Barrie',
+          'Bradford',
+          'Brampton',
+          'Markham',
+          'Mississauga',
+          'Newmarket',
+          'Vaughan',
+        ],
+        'multi': [
+          'House renovations ',
+          'Condo renovations ',
+          'Basement renovations ',
+          'Commercial renovations ',
+        ] 
+      },
+      { 'text': 'Blog',  'href': 'blog.html', icon: false},
+      { 'text': 'Contact us',  'href': 'contacts.html', icon: false},
+      { 'text': 'Virtual tour',  'href': 'tour.html', icon: '#ic_3d--green'},
+      
+    ],
+
+    
+  }
+
+  const product = {
+    image: '/img/product/catalog-icon/01.svg',
+    title: 'Клавиатуры',
+    desc: 'Компьютеры',
+  }
+
+  const catalog = [
+    {
+      title: 'Электроника',
+      icon: '/img/product/catalog-icon/01.svg',
+      sub: [
+        {
+          title: 'Наушники',
+          sub: [
+            {title: 'Ноутбуки'},
+            {title: 'Аксессуары для ноутбуков'},
+            {title: 'Планшеты'},
+            {title: 'Аксессуары для планшетов'},
+            {title: 'Графические планшеты'},
+            {title: 'Планшеты'},
+          ]
+        },
+        {
+          title: 'Настольные ПК и моноблоки',
+          sub: [
+            {title: 'Ноутбуки'},
+            {title: 'Аксессуары для ноутбуков'},
+             
+          ]
+        },
+        {
+          title: 'Комплектующие для ПК',
+          sub: [
+           {title: 'Ноутбуки'},
+            {title: 'Аксессуары для ноутбуков'},
+            {title: 'Планшеты'},
+            {title: 'Аксессуары для планшетов'},
+            {title: 'Графические планшеты'},
+            {title: 'Планшеты'},
+          ]
+        },
+        {
+          title: 'Мониторы и аксессуары',
+          sub: [
+            {title: 'Ноутбуки'},
+            {title: 'Аксессуары для ноутбуков'},
+            {title: 'Планшеты'},
+            {title: 'Аксессуары для планшетов'},
+            {title: 'Графические планшеты'},
+            {title: 'Планшеты'},
+          ]
+        },
+        {
+          title: 'Гейминг',
+          sub: [
+            {title: 'Ноутбуки'},
+            {title: 'Аксессуары для ноутбуков'},
+            {title: 'Планшеты'},
+            {title: 'Аксессуары для планшетов'},
+            
+          ]
+        },
+        {
+          title: 'Периферийные устройства',
+          sub: [
+            {title: 'Ноутбуки'},
+            {title: 'Аксессуары для ноутбуков'},
+            {title: 'Планшеты'},
+            {title: 'Аксессуары для планшетов'},
+            {title: 'Графические планшеты'},
+            {title: 'Планшеты'},  {title: 'Планшеты'},
+            {title: 'Аксессуары для планшетов'},
+            {title: 'Графические планшеты'},
+            {title: 'Планшеты'},  {title: 'Планшеты'},
+            {title: 'Аксессуары для планшетов'},
+            {title: 'Графические планшеты'},
+            {title: 'Планшеты'},
+          ]
+        },
+        {
+          title: 'Оргтехника и расходные материалы',
+          sub: [
+            {title: 'Ноутбуки'},
+            {title: 'Аксессуары для ноутбуков'},
+            {title: 'Планшеты'},
+            {title: 'Аксессуары для планшетов'},
+            {title: 'Графические планшеты'},
+            {title: 'Планшеты'},
+          ]
+        },
+        {
+          title: 'Сетевое оборудование',
+          sub: [
+            {title: 'Ноутбуки'},
+            {title: 'Аксессуары для ноутбуков'},
+            {title: 'Планшеты'},
+            {title: 'Аксессуары для планшетов'},
+            {title: 'Графические планшеты'},
+            {title: 'Планшеты'},
+          ]
+        },
+        {
+          title: 'Накопители данных',
+          sub: [
+            {title: 'Ноутбуки'},
+            {title: 'Аксессуары для ноутбуков'},
+            {title: 'Планшеты'},
+            {title: 'Аксессуары для планшетов'},
+            {title: 'Графические планшеты'},
+            {title: 'Планшеты'},
+          ]
+        },
+      ]
+    },
+    {
+      title: 'Бытовая техника',
+      icon: '/img/product/catalog-icon/02.svg',
+    },
+    {
+      title: 'Авто',
+      icon: '/img/product/catalog-icon/03.svg',
+    },
+    {
+      title: 'Компьютеры',
+      icon: '/img/product/catalog-icon/04.svg',
+      sub: [
+        {
+          title: 'Ноутбуки и планшеты',
+          sub: [
+            {title: 'Ноутбуки'},
+            {title: 'Аксессуары для ноутбуков'},
+            {title: 'Планшеты'},
+            {title: 'Аксессуары для планшетов'},
+            {title: 'Графические планшеты'},
+            {title: 'Планшеты'},
+          ]
+        },
+        {
+          title: 'Настольные ПК и моноблоки',
+          sub: [
+            {title: 'Ноутбуки'},
+            {title: 'Аксессуары для ноутбуков'},
+             
+          ]
+        },
+        {
+          title: 'Комплектующие для ПК',
+          sub: [
+           {title: 'Ноутбуки'},
+            {title: 'Аксессуары для ноутбуков'},
+            {title: 'Планшеты'},
+            {title: 'Аксессуары для планшетов'},
+            {title: 'Графические планшеты'},
+            {title: 'Планшеты'},
+          ]
+        },
+        {
+          title: 'Мониторы и аксессуары',
+          sub: [
+            {title: 'Ноутбуки'},
+            {title: 'Аксессуары для ноутбуков'},
+            {title: 'Планшеты'},
+            {title: 'Аксессуары для планшетов'},
+            {title: 'Графические планшеты'},
+            {title: 'Планшеты'},
+          ]
+        },
+        {
+          title: 'Гейминг',
+          sub: [
+            {title: 'Ноутбуки'},
+            {title: 'Аксессуары для ноутбуков'},
+            {title: 'Планшеты'},
+            {title: 'Аксессуары для планшетов'},
+            
+          ]
+        },
+        {
+          title: 'Периферийные устройства',
+          sub: [
+            {title: 'Ноутбуки'},
+            {title: 'Аксессуары для ноутбуков'},
+            {title: 'Планшеты'},
+            {title: 'Аксессуары для планшетов'},
+            {title: 'Графические планшеты'},
+            {title: 'Планшеты'},  {title: 'Планшеты'},
+            {title: 'Аксессуары для планшетов'},
+            {title: 'Графические планшеты'},
+            {title: 'Планшеты'},  {title: 'Планшеты'},
+            {title: 'Аксессуары для планшетов'},
+            {title: 'Графические планшеты'},
+            {title: 'Планшеты'},
+          ]
+        },
+        {
+          title: 'Оргтехника и расходные материалы',
+          sub: [
+            {title: 'Ноутбуки'},
+            {title: 'Аксессуары для ноутбуков'},
+            {title: 'Планшеты'},
+            {title: 'Аксессуары для планшетов'},
+            {title: 'Графические планшеты'},
+            {title: 'Планшеты'},
+          ]
+        },
+        {
+          title: 'Сетевое оборудование',
+          sub: [
+            {title: 'Ноутбуки'},
+            {title: 'Аксессуары для ноутбуков'},
+            {title: 'Планшеты'},
+            {title: 'Аксессуары для планшетов'},
+            {title: 'Графические планшеты'},
+            {title: 'Планшеты'},
+          ]
+        },
+        {
+          title: 'Накопители данных',
+          sub: [
+            {title: 'Ноутбуки'},
+            {title: 'Аксессуары для ноутбуков'},
+            {title: 'Планшеты'},
+            {title: 'Аксессуары для планшетов'},
+            {title: 'Графические планшеты'},
+            {title: 'Планшеты'},
+          ]
+        },
+      ]
+    },
+  ]
+
+  const products = [
+
+    {
+      title: 'Ноутбуки',
+      image: '/img/product/image-35'
+    },
+    {
+      title: 'Планшеты',
+      image: '/img/product/image-35-1'
+    },
+    {
+      title: 'Моноблоки',
+      image: '/img/product/image-35-2'
+    },
+    {
+      title: 'Настольные компьютеры',
+      image: '/img/product/image-35-3'
+    },
+    {
+      title: 'Комплектующие для ПК',
+      image: '/img/product/image-35-4'
+    },
+    {
+      title: 'Мониторы',
+      image: '/img/product/image-35-5'
+    },
+    {
+      title: 'Компьютерная акустика',
+      image: '/img/product/image-35-6'
+    },
+    {
+      title: 'Компьютерные гарнитуры',
+      image: '/img/product/image-35-7'
+    },
+    {
+      title: 'Клавиатуры',
+      image: '/img/product/image-35-8'
+    },
+    {
+      title: 'Компьютерные мыши',
+      image: '/img/product/image-35-9'
+    },
+  
+  ]
+
+  const minicard_good = {
+      title: '15.6" Ноутбук Acer Nitro 5 AN515-57-57DF 1920x1080, Intel Core i5 11400H 2.7 ГГц, RAM 16 ГБ, SSD 512 ГБ, NVIDIA GeForce GTX 1650, без ОС, NH.QBWER.005, черный',
+      type: 'goods',
+      rate: '4.7',
+      reviws: '82',
+      rating_color: 'rating--green',
+      sticker_color: 'sticker--blue',
+      price: 'от 124 000 ₽',
+      id: '12323'
+  }
+
+
+
+   const minicard_good_2 = {
+      title: '15.6" Ноутбук Acer Nitro 5 AN515-57-57DF 1920x1080, Intel Core i5 11400H 2.7 ГГц, RAM 16 ГБ, SSD 512 ГБ, NVIDIA GeForce GTX 1650, без ОС, NH.QBWER.005, черный',
+      type: 'goods',
+      rate: '2.8',
+      reviws: '82',
+      rating_color: 'rating--red',
+      sticker_color: 'sticker--orange',
+      price: 'от 124 000 ₽',
+      id: '57489'
+     
+  }
+
+   const minicard_good_3 = {
+      title: '15.6" Ноутбук Acer Nitro 5 AN515-57-57DF 1920x1080, Intel Core i5 11400H 2.7 ГГц, RAM 16 ГБ, SSD 512 ГБ, NVIDIA GeForce GTX 1650, без ОС, NH.QBWER.005, черный',
+      type: 'goods',
+      rate: '4.4',
+      reviws: '82',
+      rating_color: 'rating--blue',
+      price: 'от 124 000 ₽',
+     id: '98347'
+  }
+
+   const minicard_good_4 = {
+      title: '15.6" Ноутбук Acer Nitro 5 AN515-57-57DF 1920x1080, Intel Core i5 11400H 2.7 ГГц, RAM 16 ГБ, SSD 512 ГБ, NVIDIA GeForce GTX 1650, без ОС, NH.QBWER.005, черный',
+      type: 'goods',
+      rate: '4.4',
+      reviws: '82',
+      rating_color: 'rating--blue',
+      price: 'от 124 000 ₽',
+     id: '983147'
+  }
+
+   const minicard_good_5 = {
+      title: '15.6" Ноутбук Acer Nitro 5 AN515-57-57DF 1920x1080, Intel Core i5 11400H 2.7 ГГц, RAM 16 ГБ, SSD 512 ГБ, NVIDIA GeForce GTX 1650, без ОС, NH.QBWER.005, черный',
+      type: 'goods',
+      rate: '4.4',
+      reviws: '82',
+      rating_color: 'rating--blue',
+      price: 'от 124 000 ₽',
+      id: '12347'
+  }
+
+    const minicard_store = {
+      title: '17.3" Ноутбук HP 17-by1016ur 1600x900, Intel Pentium Gold 6405U 2.4 ГГц, RAM 4 ГБ, SSD 256 ГБ, Intel UHD Graphics, DOS, 22Q61EA',
+      type: 'store',
+      rate: '3.8',
+      reviws: '14',
+      rating_color: 'rating--orange',
+      price: '132 000 ₽',
+      id: '87795'
+      
+  }
+
+  const minicard_store2 = {
+      title: '17.3" Ноутбук HP 17-by1016ur 1600x900, Intel Pentium Gold 6405U 2.4 ГГц, RAM 4 ГБ, SSD 256 ГБ, Intel UHD Graphics, DOS, 22Q61EA',
+      type: 'store',
+      rate: '3.8',
+      reviws: '14',
+      rating_color: 'rating--orange',
+      price: '132 000 ₽',
+      other: true,
+      id: '234'
+      
+  }
+
+  const minicard_store3 = {
+      title: '17.3" Ноутбук HP 17-by1016ur 1600x900, Intel Pentium Gold 6405U 2.4 ГГц, RAM 4 ГБ, SSD 256 ГБ, Intel UHD Graphics, DOS, 22Q61EA',
+      type: 'store',
+      rate: '3.8',
+      reviws: '14',
+      rating_color: 'rating--orange',
+      price: '132 000 ₽',
+      other: true,
+      id: '234454'
+      
+  }
+
+  const goods = [  
+    minicard_good, 
+    minicard_store, 
+    minicard_good_3, 
+    minicard_good_2, 
+    minicard_store, 
+    minicard_good_4, 
+    minicard_store2, 
+    minicard_good_5, 
+    minicard_store3
+  ]
+  const storeOoffers = [
+    {
+      type: 'separator',
+      text: 'К сожалению, в выбранном городе предложений нет, <br> ниже представлены товары от магазинов из других регионов.'
+    },
+    minicard_store2,
+    minicard_store2,
+    {
+      type: 'separator',
+      text: 'Предложения из других регионов'
+    },
+    minicard_store2,
+    minicard_store2,
+    minicard_store2
+  ]
+
+    const storeOoffersPopup = [
+    minicard_store2,
+    minicard_store2,
+    minicard_store2,
+    minicard_store2,
+    minicard_store2,
+    minicard_store2,
+    minicard_store2,
+    minicard_store2,
+    minicard_store2,
+    minicard_store2,
+    minicard_store2,
+    minicard_store2,
+    minicard_store2,
+    minicard_store2
+  ]
+ 
+
+  const fastProperty = [
+    {
+      title: 'Состояние товара: Новый',
+      active: 1,
+      option: [
+        { name: 'Новый'},
+        { name: 'Ресейл'}
+      ]
+    },
+
+    {
+      title: 'Процессор: Intel Core i5 1135G7',
+      active: 1,
+      option: [
+        { name: 'Intel Core i3 1115G4'},
+        { name: 'Intel Core i5 1135G7'},
+        { name: 'Intel Core i7 1165G7', disabled: true},
+      ]
+    },
+
+    {
+      title: 'Оперативная память: 8 ГБ',
+      active: 1,
+      option: [
+        { name: '8 ГБ'},
+        { name: '16 ГБ'},
+      ]
+    },
+
+    {
+      title: 'Видеокарта: Intel Iris Xe Graphics',
+      active: 1,
+      option: [
+        { name: 'Intel Iris Xe Graphics'},
+        { name: 'Intel UHD Graphics'},
+      ]
+    },
+    
+    {
+      title: 'Видеокарта: Intel Iris Xe Graphics',
+      active: 1,
+      option: [
+        { name: 'Intel Iris Xe Graphics'},
+        { name: 'Intel UHD Graphics'},
+      ]
+    },
+
+    {
+      title: 'Общий объем накопителей SSD: 256 ГБ',
+      active: 1,
+      option: [
+        { name: '256 ГБ'},
+        { name: '512 ГБ'},
+        { name: '1 TБ', disabled: true},
+      ]
+    },
+
+    {
+      title: 'Версия ОС: Windows 11 Home',
+      active: 1,
+      option: [
+        { name: 'Windows 10 Home'},
+        { name: 'Windows 11 Home'},
+        { name: 'без ОС'},
+      ]
+    },
+
+    {
+      title: 'Версия ОС: Windows 11 Home',
+      active: 1,
+      option: [
+        { name: 'Windows 10 Home'},
+        { name: 'Windows 11 Home'},
+        
+      ]
+    },
+    {
+      title: 'Тип покрытия экрана: матовый',
+      active: 1,
+      option: [
+        { name: 'антибликовый'},
+        { name: 'матовый'},
+         
+      ]
+    },
+    {
+      title: 'Устройства позиционирования: Touchpad',
+      active: 1,
+      option: [
+        { name: 'NumberPad'},
+        { name: 'Touchpad'},
+         
+      ]
+    },
+  ]
+
+   
+
+  const properties = [
+    {
+      head: 'Тип',
+      items: [
+        { title: 'Линейка', value: 'ZenBook' },
+        { title: 'Код модели', value: 'ZenBook 14 UX425' },
+        { title: 'Тип', value: 'ноутбук' },
+      ] 
+    },
+
+    
+    {
+      head: 'Процессор',
+      items: [
+        { title: 'Линейка процессора', value: 'Intel Core i5' },
+        { title: 'Процессор', value: 'Intel Core i5 1135G7' },
+        { title: 'Частота процессора', value: '2400 МГц' },
+        { title: 'Количество ядер процессора', value: '4' },
+        { title: 'Ядро процессора', value: 'Tiger Lake' },
+      ] 
+    },
+
+    {
+      head: 'Память',
+      items: [
+        { title: 'Оперативная память', value: '8 ГБ' },
+        { title: 'Тип памяти', value: 'LPDDR4X' },
+        { title: 'Частота памяти', value: '4266 МГц' },
+      ] 
+    },
+
+    {
+      head: 'Экран',
+      items: [
+        { title: 'Диагональ экрана', value: '14 "' },
+        { title: 'Разрешение экрана', value: '1920x1080' },
+        { title: 'Частота обновления экрана', value: '60 Гц' },
+        { title: 'Тип покрытия экрана', value: 'матовый' },
+        { title: 'Тип матрицы экрана', value: 'IPS' },
+      ] 
+    },
+
+    {
+      head: 'Накопители',
+      items: [
+        { title: 'Общий объем накопителей HDD', value: 'отсутствует' },
+        { title: 'Общий объем накопителей SSD', value: '512 ГБ' },
+       
+      ] 
+    },
+
+    {
+      head: 'Видеоадаптер',
+      items: [
+        { title: 'Видеокарта', value: 'Intel Iris Xe Graphics' },
+        { title: 'Тип видеокарты', value: 'встроенная' },
+        { title: 'Объем видеопамяти', value: 'SMA' },
+      ] 
+    },
+
+    {
+      head: 'Связь',
+      items: [
+        { title: 'Беспроводная связь', value: 'Bluetooth, Wi-Fi' },
+        { title: 'Стандарт Wi-Fi', value: '802.11ax' },
+        { title: 'Версия Bluetooth', value: '5.0' },
+      ] 
+    },
+
+    {
+      head: 'Слоты и разъемы',
+      items: [
+        { title: 'Оптический привод', value: 'нет' },
+        { title: 'Интерфейсы', value: 'USB 3.2 Gen1 Type A, выход HDMI, Thunderbolt 4 x 2' },
+        { title: 'Функционал USB Type-C', value: 'Thunderbolt 4' },
+        { title: 'Поддержка карт памяти', value: 'microSD' },
+      ] 
+    },
+
+    {
+      head: 'Ввод данных',
+      items: [
+        { title: 'Подсветка клавиатуры', value: 'есть' },
+        { title: 'Устройства позиционирования', value: 'Touchpad' },
+      ] 
+    },
+
+    {
+      head: 'Софт',
+      items: [
+        { title: 'Операционная система', value: 'Windows 11 Home' },
+      ] 
+    },
+
+    {
+      head: 'Питание',
+      items: [
+        { title: 'Время автономной работы', value: '21 ч' },
+      ] 
+    },
+    {
+      head: 'Дополнительно',
+      items: [
+        { title: 'Разрешение веб-камеры', value: '720p' },
+        { title: 'Корпус', value: 'металлический' },
+        { title: 'Длина', value: '319 мм' },
+        { title: 'Ширина', value: '208 мм' },
+        { title: 'Толщина', value: '13.9 мм' },
+        { title: 'Вес', value: '1.17 кг' },
+      ] 
+    },
+    {
+      head: 'Дополнительно',
+      items: [
+        { title: 'Срок службы', value: '12 мес.' },
+        { title: 'Гарантийный срок', value: '12 мес., Гарантия продавца' },
+      ] 
+    }
+     
+
+
+  ]
+
+
+
+
+ 
+  const compare_product = {
+      monitor : [
+          {
+              'img' : '/img/product/monitors/img',
+              'title' : '27" Монитор LG UltraGear 27GN600-B, 1920x1080, 144 Гц, IPS',
+          },
+          {
+              'img' : '/img/product/monitors/img-1',
+              'title' : '27" Монитор MSI Optix G273QF, 2560x1440, 165 Гц, IPS',
+          },
+          {
+              'img' : '/img/product/monitors/img-2',
+              'title' : '27" Монитор Xiaomi Mi Gaming Display, 2560x1440, 165 Гц, IPS',
+          },
+          {
+              'img' : '/img/product/monitors/img-2',
+              'title' : '27" Монитор LG 27GN850-B, 2560x1440, 144 Гц, IPS',
+          },
+          {
+              'img' : '/img/product/monitors/img-3',
+              'title' : '30" Монитор Xiaomi Curved Gaming Monitor 30, 2560x1080, 200 Гц, *VA',
+          },
+          {
+              'img' : '/img/product/monitors/img-4',
+              'title' : '34" Монитор Xiaomi Mi Curved Gaming Monitor 34, 3440x1440, 144 Гц, *VA...',
+          },
+          {
+              'img' : '/img/product/monitors/img-5',
+              'title' : '27" Монитор LG UltraGear 27GN600-B, 1920x1080, 144 Гц, IPS',
+          },
+          {
+              'img' : '/img/product/monitors/img-2',
+              'title' : '27" Монитор MSI Optix G273QF, 2560x1440, 165 Гц, IPS',
+          },
+          {
+              'img' : '/img/product/monitors/img-3',
+              'title' : '27" Монитор Xiaomi Mi Gaming Display, 2560x1440, 165 Гц, IPS',
+          },
+          
+      ],
+
+
+      laptop : [
+          {
+              'img' : '/img/product/minicard-1',
+              'title' : '15.6" Ноутбук Acer Nitro 5 AN515-57-57DF 1920x1080, Intel Core i5 11400H 2.7 ГГц, RAM 16 ГБ, SSD 512 ГБ, NVIDIA GeForce GTX 1650, без ОС, NH.QBWER.005, черный',
+          },
+          {
+              'img' : '/img/product/minicard-2',
+              'title' : '15.6" Ноутбук Acer Nitro 5 AN515-57-57DF 1920x1080, Intel Core i5 11400H 2.7 ГГц, RAM 16 ГБ, SSD 512 ГБ, NVIDIA GeForce GTX 1650, без ОС, NH.QBWER.005, черный',
+          },
+          {
+              'img' : '/img/product/sp-1',
+              'title' : '14" Ноутбук ASUS ZenBook 14 UX425EA-KI421T 1920x1080, Intel Core i3 1115G4 3 ГГц, RAM 8 ГБ, SSD 256 ГБ, Intel UHD Graphics, Windows 10 Home, 90NB0SM1-M08850, Pine Grey',
+          },
+          {
+              'img' : '/img/product/minicard-2',
+              'title' : '15.6" Ноутбук Acer Nitro 5 AN515-57-57DF 1920x1080, Intel Core i5 11400H 2.7 ГГц, RAM 16 ГБ, SSD 512 ГБ, NVIDIA GeForce GTX 1650, без ОС, NH.QBWER.005, черный',
+          },
+          {
+              'img' : '/img/product/sp-1',
+              'title' : '14" Ноутбук ASUS ZenBook 14 UX425EA-KI421T 1920x1080, Intel Core i3 1115G4 3 ГГц, RAM 8 ГБ, SSD 256 ГБ, Intel UHD Graphics, Windows 10 Home, 90NB0SM1-M08850, Pine Grey',
+          },
+          {
+              'img' : '/img/product/minicard-2',
+              'title' : '15.6" Ноутбук Acer Nitro 5 AN515-57-57DF 1920x1080, Intel Core i5 11400H 2.7 ГГц, RAM 16 ГБ, SSD 512 ГБ, NVIDIA GeForce GTX 1650, без ОС, NH.QBWER.005, черный',
+          },
+          {
+              'img' : '/img/product/sp-1',
+              'title' : '14" Ноутбук ASUS ZenBook 14 UX425EA-KI421T 1920x1080, Intel Core i3 1115G4 3 ГГц, RAM 8 ГБ, SSD 256 ГБ, Intel UHD Graphics, Windows 10 Home, 90NB0SM1-M08850, Pine Grey',
+          },
+        ],
+
+
+      headphones : [
+          {
+              'img' : '/img/product/headphones/hp1',
+              'title' : '15.6" Ноутбук Acer Nitro 5 AN515-57-57DF 1920x1080, Intel Core i5 11400H 2.7 ГГц, RAM 16 ГБ, SSD 512 ГБ, NVIDIA GeForce GTX 1650, без ОС, NH.QBWER.005, черный',
+          },
+          {
+              'img' : '/img/product/headphones/hp2',
+              'title' : '15.6" Ноутбук Acer Nitro 5 AN515-57-57DF 1920x1080, Intel Core i5 11400H 2.7 ГГц, RAM 16 ГБ, SSD 512 ГБ, NVIDIA GeForce GTX 1650, без ОС, NH.QBWER.005, черный',
+          },
+         
+        ]
+  }
+
+  const top_categories = [
+    {
+      img: '/img/product/home_categories/img_1',
+      name: 'Смартфоны'
+    },
+    {
+      img: '/img/product/home_categories/img_2',
+      name: 'Ноутбуки'
+    },
+    {
+      img: '/img/product/home_categories/img_3',
+      name: 'Смарт-часы'
+    },
+    {
+      img: '/img/product/home_categories/img_4',
+      name: 'Планшеты'
+    },
+    {
+      img: '/img/product/home_categories/img_5',
+      name: 'Игровые приставки'
+    },
+    {
+      img: '/img/product/home_categories/img_6',
+      name: 'Фотоаппараты'
+    },
+    {
+      img: '/img/product/home_categories/img_7',
+      name: 'Наушники'
+    },
+    {
+      img: '/img/product/home_categories/img_8',
+      name: 'Телевизоры'
+    },
+     
+    
+    
+   
+     
+  ]
+
+  const homepage_article = [
+    
+    {
+      title: 'ChatGPT теперь будет запоминать предпочтения пользователей',
+      image: '/img/other/img',
+      tag1: 'Новости',
+      tag2: 'Технологии',
+      tag3: 'Сегодня',
+       category: 'Новости',
+      date: '07.03.24',
+      views: '600'
+    },
+
+    {
+      title: 'Владельцы смартфонов Samsung Galaxy S24 жалуются на проблемы с дисплеем',
+      image: '/img/other/img-1',
+      tag1: 'Новости',
+      tag2: 'Девайсы',
+      tag3: 'Вчера',
+       category: 'Новости',
+      date: '07.03.24',
+      views: '600'
+      
+    },
+    {
+      title: 'Зачем звонят с неизвестных номеров и сбрасывают',
+      image: '/img/other/img-2',
+      tag1: 'Обзоры',
+      tag2: 'Безопасность',
+      tag3: '10 февраля',
+       category: 'Новости',
+      date: '07.03.24',
+      views: '10K'
+      
+    },
+  ]
+
+  const homepage_article_2 = [
+    
+    {
+      title: 'Samsung Galaxy Fit 3: обзор характеристик и цен, срав­нение с аналогичными моделями',
+      image: '/img/other/img-21',
+      tag1: 'Новости',
+      tag2: 'Девайсы',
+      tag3: '31 января'
+    },
+
+    {
+      title: 'Нейросеть для генерации видео Sora от создателей ChatGPT: почему о ней так много говорят',
+      image: '/img/other/img-22',
+      tag1: 'Новости',
+      tag2: 'Технологии',
+      tag3: '31 января'
+    },
+
+    {
+      title: 'Нейросети для генерации видео',
+      image: '/img/other/img-23',
+      tag1: 'Статьи',
+      tag2: 'Интернет',
+      tag3: '31 января'
+    },
+  ]
+
+  const similar_article = [
+    
+    {
+      title: 'В Тюмени пройдет этап чем­пи­оната России по биатлону: участники, формат и призовые',
+      image: '/img/other/img-s',
+      tag1: 'Новости',
+      tag2: 'Девайсы',
+      tag3: '31 января',
+      category: 'Новости',
+      date: '07.03.24',
+      views: '600'
+    },
+
+    {
+      title: 'Разгибание на ролле: техника выполнения упражнения',
+      image: '/img/other/img-s1',
+      tag1: 'Новости',
+      tag2: 'Технологии',
+      tag3: '31 января',
+       category: 'Новости',
+      date: '07.03.24',
+      views: '15K'
+    },
+
+    {
+      title: 'Медитация: для чего ей зани­маться и какая в этом польза',
+      image: '/img/other/img-s2',
+      tag1: 'Статьи',
+      tag2: 'Интернет',
+      tag3: '31 января',
+       category: 'Статьи',
+      date: '07.03.24',
+      views: '3K'
+    },
+
+     {
+      title: 'В Тюмени пройдет этап чем­пи­оната России по биатлону: участники, формат и призовые',
+      image: '/img/other/img-s',
+      tag1: 'Новости',
+      tag2: 'Девайсы',
+      tag3: '31 января',
+      category: 'Новости',
+      date: '07.03.24',
+      views: '600'
+    },
+  ]
+
+  const news_banner = {
+    type: 'banner',
+    image: '/img/other/banner-catalog-03-desktop.jpg',
+    image_tablet: '/img/other/banner-catalog-tablet.jpg',
+    image_mobile: '/img/other/banner-catalog-mobile.jpg',
+  }
+
+
+  const news = [
+    
+    ...homepage_article,
+    ...homepage_article_2,
+    news_banner,
+    ...homepage_article,
+    ...homepage_article_2,
+    news_banner,
+    ...homepage_article,
+    ...homepage_article_2,
+
+  ]
+
+  const product_article = [
+    {
+      'image':'/img/product/watch/img',
+      'title':'Apple Watch S9 GPS 45mm (MR9A3LL/A) Midnight',
+      'price':'от 52 999 ₽',
+    },
+    {
+      'image':'/img/product/watch/img-1',
+      'title':'Samsung Galaxy Fit3 SM-R390NZSACIS (серебристый)',
+      'price':'от 6 200 ₽',
+    },
+    {
+      'image':'/img/product/watch/img-2',
+      'title':'Apple Airpods Pro 2 (MQD83AM/A)',
+      'price':'от 25 900 ₽',
+    },
+   
+  ]
+
+  const home_products = [
+    {
+      title: 'Apple Watch S9 GPS 45mm',
+      type: 'goods',
+      rate: '4.7',
+      reviws: '82',
+      rating_color: 'rating--green',
+      sticker_color: 'sticker--blue',
+      price: 'от 124 000 ₽',
+      id: '12323',
+      img: [
+        '/img/product/watch/img'
+      ]
+    },
+    {
+      title: 'Samsung Galaxy Fit3 SM-R390NZSACIS (серебристый) Galaxy Fit3 SM-R390NZSACIS (серебристый)',
+      type: 'goods',
+      rate: '4.7',
+      reviws: '82',
+      rating_color: 'rating--green',
+      sticker_color: 'sticker--blue',
+      price: 'от 124 000 ₽',
+      id: '12323',
+      img: [
+        '/img/product/watch/img-1',
+        '/img/product/watch/img-2'
+      ]
+    },
+    {
+      title: 'Apple Airpods Pro 2 (MQD83AM/A)',
+      type: 'goods',
+      rate: '4.7',
+      reviws: '82',
+      rating_color: 'rating--green',
+      sticker_color: 'sticker--orange',
+      price: 'от 124 000 ₽',
+      id: '12323',
+      img: [
+        '/img/product/watch/img-2'
+      ]
+    },
+    {
+      title: 'Samsung Galaxy Fit3 SM-R390NZSACIS (серебристый)',
+      type: 'goods',
+      rate: '4.7',
+      reviws: '82',
+      rating_color: 'rating--green',
+      sticker_color: 'sticker--blue',
+      price: 'от 124 000 ₽',
+      id: '12323',
+      img: [
+        '/img/product/watch/img-1'
+      ]
+    },
+    {
+      title: 'Apple Watch Series 9 41mm Silver MR903CH/A (силиконоввый)',
+      type: 'goods',
+      rate: '4.7',
+      reviws: '82',
+      rating_color: 'rating--green',
+      sticker_color: 'sticker--blue',
+      price: 'от 124 000 ₽',
+      id: '12323',
+      img: [
+        '/img/product/watch/img-3'
+      ]
+    },
+    {
+      title: 'Apple Airpods Pro 2 (MQD83AM/A)',
+      type: 'goods',
+      rate: '4.7',
+      reviws: '82',
+      rating_color: 'rating--green',
+      sticker_color: 'sticker--blue',
+      price: 'от 124 000 ₽',
+      id: '12323',
+      img: [
+        '/img/product/watch/img'
+      ]
+    },
+    {
+      title: 'Apple Watch Series 9 41mm Silver MR903CH/A (силиконоввый)',
+      type: 'goods',
+      rate: '4.7',
+      reviws: '82',
+      rating_color: 'rating--green',
+      sticker_color: 'sticker--blue',
+      price: 'от 124 000 ₽',
+      id: '12323',
+      img: [
+        '/img/product/watch/img-3'
+      ]
+    },
+  ]
+ 
+
+
+
+
+
+
+
+
+
+
+
+

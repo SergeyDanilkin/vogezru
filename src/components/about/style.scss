@@ -1,0 +1,102 @@
+.about-company {
+    &__title {
+        margin-bottom: 24px; 
+        span {
+            display: block;
+        }
+    }
+
+    &__img {
+        img {
+            border: 8px solid  #FFF;
+            border-radius: 20px;
+        }
+        margin-bottom: 24px;
+    }
+
+    &__text {
+        strong {
+            font-weight: 600;
+        }
+    }
+
+    &__btns {
+        margin-top: 12px;
+    }
+
+    &__btn {
+        display: inline-block;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__btn:before {
+        content: '';
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMSAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTQuNzg1NzEgOC4wMjE0NUM0Ljc4NTcxIDcuODM0NTggNC44NjA5NyA3LjY1NTM1IDQuOTk0OTIgNy41MjMyMUM1LjEyODg4IDcuMzkxMDcgNS4zMTA1NiA3LjMxNjgzIDUuNSA3LjMxNjgzSDkuNzg1NzFDOS45NzUxNSA3LjMxNjgzIDEwLjE1NjggNy4zOTEwNyAxMC4yOTA4IDcuNTIzMjFDMTAuNDI0NyA3LjY1NTM1IDEwLjUgNy44MzQ1OCAxMC41IDguMDIxNDVDMTAuNSA4LjIwODMzIDEwLjQyNDcgOC4zODc1NSAxMC4yOTA4IDguNTE5N0MxMC4xNTY4IDguNjUxODQgOS45NzUxNSA4LjcyNjA4IDkuNzg1NzEgOC43MjYwOEg1LjVDNS4zMTA1NiA4LjcyNjA4IDUuMTI4ODggOC42NTE4NCA0Ljk5NDkyIDguNTE5N0M0Ljg2MDk3IDguMzg3NTUgNC43ODU3MSA4LjIwODMzIDQuNzg1NzEgOC4wMjE0NVpNOS43ODU3MSAxMC4xMzUzSDUuNUM1LjMxMDU2IDEwLjEzNTMgNS4xMjg4OCAxMC4yMDk2IDQuOTk0OTIgMTAuMzQxN0M0Ljg2MDk3IDEwLjQ3MzggNC43ODU3MSAxMC42NTMxIDQuNzg1NzEgMTAuODM5OUM0Ljc4NTcxIDExLjAyNjggNC44NjA5NyAxMS4yMDYgNC45OTQ5MiAxMS4zMzgyQzUuMTI4ODggMTEuNDcwMyA1LjMxMDU2IDExLjU0NDYgNS41IDExLjU0NDZIOS43ODU3MUM5Ljk3NTE1IDExLjU0NDYgMTAuMTU2OCAxMS40NzAzIDEwLjI5MDggMTEuMzM4MkMxMC40MjQ3IDExLjIwNiAxMC41IDExLjAyNjggMTAuNSAxMC44Mzk5QzEwLjUgMTAuNjUzMSAxMC40MjQ3IDEwLjQ3MzggMTAuMjkwOCAxMC4zNDE3QzEwLjE1NjggMTAuMjA5NiA5Ljk3NTE1IDEwLjEzNTMgOS43ODU3MSAxMC4xMzUzWk05Ljc4NTcxIDEyLjk1MzhINS41QzUuMzEwNTYgMTIuOTUzOCA1LjEyODg4IDEzLjAyOCA0Ljk5NDkyIDEzLjE2MDJDNC44NjA5NyAxMy4yOTIzIDQuNzg1NzEgMTMuNDcxNSA0Ljc4NTcxIDEzLjY1ODRDNC43ODU3MSAxMy44NDUzIDQuODYwOTcgMTQuMDI0NSA0Ljk5NDkyIDE0LjE1NjdDNS4xMjg4OCAxNC4yODg4IDUuMzEwNTYgMTQuMzYzIDUuNSAxNC4zNjNIOS43ODU3MUM5Ljk3NTE1IDE0LjM2MyAxMC4xNTY4IDE0LjI4ODggMTAuMjkwOCAxNC4xNTY3QzEwLjQyNDcgMTQuMDI0NSAxMC41IDEzLjg0NTMgMTAuNSAxMy42NTg0QzEwLjUgMTMuNDcxNSAxMC40MjQ3IDEzLjI5MjMgMTAuMjkwOCAxMy4xNjAyQzEwLjE1NjggMTMuMDI4IDkuOTc1MTUgMTIuOTUzOCA5Ljc4NTcxIDEyLjk1MzhaTTkuNzg1NzEgMTUuNzcyM0g1LjVDNS4zMTA1NiAxNS43NzIzIDUuMTI4ODggMTUuODQ2NSA0Ljk5NDkyIDE1Ljk3ODdDNC44NjA5NyAxNi4xMTA4IDQuNzg1NzEgMTYuMjkgNC43ODU3MSAxNi40NzY5QzQuNzg1NzEgMTYuNjYzOCA0Ljg2MDk3IDE2Ljg0MyA0Ljk5NDkyIDE2Ljk3NTFDNS4xMjg4OCAxNy4xMDczIDUuMzEwNTYgMTcuMTgxNSA1LjUgMTcuMTgxNUg5Ljc4NTcxQzkuOTc1MTUgMTcuMTgxNSAxMC4xNTY4IDE3LjEwNzMgMTAuMjkwOCAxNi45NzUxQzEwLjQyNDcgMTYuODQzIDEwLjUgMTYuNjYzOCAxMC41IDE2LjQ3NjlDMTAuNSAxNi4yOSAxMC40MjQ3IDE2LjExMDggMTAuMjkwOCAxNS45Nzg3QzEwLjE1NjggMTUuODQ2NSA5Ljk3NTE1IDE1Ljc3MjMgOS43ODU3MSAxNS43NzIzWk0yMC41IDE5LjI5NTRDMjAuNSAxOS40ODIzIDIwLjQyNDcgMTkuNjYxNSAyMC4yOTA4IDE5Ljc5MzZDMjAuMTU2OCAxOS45MjU4IDE5Ljk3NTIgMjAgMTkuNzg1NyAyMEgxLjIxNDI5QzEuMDI0ODUgMjAgMC44NDMxNjQgMTkuOTI1OCAwLjcwOTIwOSAxOS43OTM2QzAuNTc1MjU1IDE5LjY2MTUgMC41IDE5LjQ4MjMgMC41IDE5LjI5NTRDMC41IDE5LjEwODUgMC41NzUyNTUgMTguOTI5MyAwLjcwOTIwOSAxOC43OTcxQzAuODQzMTY0IDE4LjY2NSAxLjAyNDg1IDE4LjU5MDggMS4yMTQyOSAxOC41OTA4SDEuOTI4NTdWNS42Mzg0M0MxLjkyNzY5IDUuMzc2NTcgMi4wMDExNiA1LjExOTcgMi4xNDA2NSA0Ljg5NjkxQzIuMjgwMTUgNC42NzQxMiAyLjQ4MDEgNC40OTQzMiAyLjcxNzg2IDQuMzc3ODZMMTEuMjg5MyAwLjE1MDE0QzExLjczNjQgLTAuMDY5NzAxNCAxMi4yNTUgLTAuMDQ3MTUzNiAxMi42NzkzIDAuMjExNDQyQzEzLjEwMzYgMC40NzAwMzggMTMuMzU2NCAwLjkxODE3NiAxMy4zNTY0IDEuNDEwNzFWNi42MTIyMUgxNy42NDIxQzE4LjQzIDYuNjEyMjEgMTkuMDcwNyA3LjI0NDI2IDE5LjA3MDcgOC4wMjE0NVYxOC41OTA4SDE5Ljc4NUMxOS45NzQ0IDE4LjU5MDggMjAuMTU2MSAxOC42NjUgMjAuMjkwMSAxOC43OTcxQzIwLjQyNCAxOC45MjkzIDIwLjUgMTkuMTA4NSAyMC41IDE5LjI5NTRaTTEzLjM1NzEgOC4wMjE0NVYxOC41OTA4SDE3LjY0MjlWOC4wMjE0NUgxMy4zNTcxWk0zLjM1NzE0IDE4LjU5MDhIMTEuOTI4NlYxLjQxMDcxTDMuMzU3MTQgNS42Mzg0M1YxOC41OTA4WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==);
+        width: 21px;
+        height: 20px;
+        display: block;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about-company {
+        &__title {
+            font-size: 40px;
+            line-height: 52px;
+
+            span {
+                display: inline;
+            }
+        }
+        &__btns {
+            margin-top: 24px;
+        }
+
+        &__inner {
+            display: flex;
+        }
+
+        &__left {
+            width: 300px;
+            margin-right: 24px;
+            flex-shrink: 0;
+        }
+
+        &__btn {
+            display: inline-flex;
+            width: unset;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .about-company {
+        &__left {
+            width: 500px;
+            margin-right: 48px;
+            flex-shrink: 0;
+        }
+
+        &__text {
+            font-size: 16px;
+            b {
+                font-size: 24px;
+                line-height: 28px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 1440px) {
+    .about-company {
+        &__text {
+            b {
+                font-size: 32px;
+                line-height: 44px;
+            }
+        }
+    }
+}
