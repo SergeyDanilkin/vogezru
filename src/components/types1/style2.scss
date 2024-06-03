@@ -1,7 +1,8 @@
 .product-types-premium {
     .product-types__bg {
       background-color: #0089CC;
-      background-image: url("../img/type1-bg-mobile.png");
+      background-image: url("../img/type1-bg.png");
+      background-repeat: no-repeat;
     }
   
     .product-types__title:before{
@@ -27,6 +28,12 @@
           background: #0089CC;
       }
     }
-  
-  
+}
+
+@media screen and (min-width:768px) {
+  .product-types-premium {
+    .product-types__title:before{
+      background-image: url('../img/svg/star-d.svg');
+    }
+  }
 }

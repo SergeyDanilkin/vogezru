@@ -69,8 +69,8 @@
                                     li
                                         .header__menu-item
                                             a(href='#') О компании
-                                    li
-                                        .header__menu-item.parent
+                                    li.parent
+                                        .header__menu-item
                                             a(href='#') Документация
                                             ul
                                                 li
@@ -81,11 +81,20 @@
                                     li
                                         .header__menu-item
                                             a(href='#') Контакты
-                .header__search
+                .header__search-top
+                    .header__search-icon-wrap
+                         .header__search-icon(data-header-search)
+                .header__search-bottom
+                    form(action="#") 
+                        input(type="text")(placeholder="Поиск")
+  
+
                 .header__phone.header__square
                     .header__square-link.header__phone-link
                         span
-                    .header__sub.header__menu-catalog.dnone
+                            a(href="tel:74953635650") +7 (495) 363-56-50
+
+                    .header__sub.header__menu-phone.dnone
                         .container
                             .header__sub-top
                                 .header__sub-title Наши контакты

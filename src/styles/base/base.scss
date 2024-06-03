@@ -25,6 +25,7 @@ body {
 }
 
 .container {
+    max-width: 1504px;
     width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
@@ -168,8 +169,56 @@ main {
     padding-top:128px;
 }
 
+@media screen and (min-width: 998px) {
+    main {
+        padding-top:66px;
+    }
+}
+
+
 .no-scroll {
     overflow: hidden;
+}
+
+
+.splide__arrows {
+    position: absolute;
+    bottom: -72px;
+    right: 0;
+    display: flex;
+
+    .splide__arrow {
+        height: 40px;
+        width: 40px;
+        border-radius: 8px;
+        background: #FFF;
+        opacity: 1;
+        position: relative;
+        left:0;
+        right:0;
+        top:0;
+        transform: unset;
+
+        background-image: url('../img/svg/left.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+
+        svg {
+            display: none;
+        }
+    }
+
+    .splide__arrow:disabled {
+        display: none;
+    }
+
+    .splide__arrow--prev {
+        margin-right: 12px;
+    }
+    .splide__arrow--next {
+        transform: scaleX(-1);
+    }
+
 }
 
 .splide__pagination {
@@ -197,21 +246,29 @@ main {
 
 }
 
+[data-spoiler] span  {
+    display: none;
+}
+
+[data-spoiler] > p {
+    margin-bottom: 0;
+}
+
 [data-spoiler].hide > p {
     max-height: 100px;
     overflow: hidden;
+}
 
-    span {
-        display: block;
-    }
+[data-spoiler].hide > span {
+    display: inline-block;
 }
 
 [data-spoiler].open > p {
     max-height: unset;
+}
 
-    span {
-        display: block;
-    }
+[data-spoiler].open > span {
+    display: inline-block;
 }
 
 
@@ -221,4 +278,12 @@ img {
 
 p {
     margin-bottom: 24px;
+}
+
+input {
+    border: 1px solid #143E66;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 14px 16px;
 }

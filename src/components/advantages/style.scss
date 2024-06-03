@@ -22,3 +22,20 @@
 
   }
 }
+@media screen and (min-width:998px) {
+  .advanatages {
+    &__items {
+      display: flex; 
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+  .advantages__item{
+    width: calc(50% - 16px); 
+  }
+}
+@media screen and (min-width:1440px) {
+  .advantages__item{
+    width: calc(25% - 16px); 
+  }
+}

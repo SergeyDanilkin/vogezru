@@ -43,7 +43,9 @@
     }
 
     .product-types__item {
-      background: #E0EFFF;
+      .product-types__item-bg {
+        background: #E0EFFF;
+      }
 
       .product-types__item-btn {
         color: #FFFFFF;
@@ -68,6 +70,16 @@
           background: #00357A;
       }
     }
-  
-  
+
+
+    .splide__arrows .splide__arrow {
+      background-color: #0054AA;
+      background-image: url('../img/svg/left-white.svg');
+    }
+}
+
+@media screen and (min-width:768px) {
+  .product-types-prom .product-types__title::before {
+      background-image: url('../img/svg/super-d.svg');   
+  }
 }

@@ -3,13 +3,16 @@ document.addEventListener('DOMContentLoaded', function(){
     if (typeSliders.length > 0) {
         typeSliders.forEach(function(s){
             const sliderBanner = new Splide(s, {
-                type: 'slide',
+                type: 'loop',
                 perPage: 4,
                 arrows: true,
                 gap: 24,
-                autoHeight: false,
-                height: '100%',
                 breakpoints: {
+                    1439: {
+                        perPage: 3,
+                        arrows: false,
+                        
+                    },                    
                     1024: {
                         perPage: 2,
                         arrows: false,

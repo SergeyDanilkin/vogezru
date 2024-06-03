@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function(){
     document.querySelectorAll('.header__square-link').forEach(function(l){
         l.addEventListener('click', function(e){
-            if(window.screen.width < 768) {
+            if(window.screen.width < 1280) {
                 e.preventDefault();
 
                 if(!l.parentNode.classList.contains('open')) {
@@ -29,11 +29,21 @@ document.addEventListener('DOMContentLoaded', function(){
             }
         });
     });
-    document.querySelectorAll('.header__menu-item.parent').forEach(function(p){
-        p.addEventListener('click', function(e){
+    document.querySelectorAll('.parent').forEach(function(p){
+        p.querySelector('.header__menu-item').addEventListener('click', function(e){
             e.preventDefault();
             p.classList.toggle('open');
             return false;
         });
     });
+
+
+    let s = document.querySelector('[data-header-search]');
+    if(s) {
+        s.addEventListener('click', function(e){
+            e.preventDefault();
+            document.querySelector('header').classList.toggle('header-search');
+            return false;
+        });
+    }
 });
