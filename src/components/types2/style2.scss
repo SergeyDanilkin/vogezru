@@ -1,7 +1,7 @@
 .product-types-standart {
     .product-types__bg {
       background-color: #FFFFFF;
-      background-image: url("../img/type2-bg-mobile.png");
+      background-image: url("../img/type2-bg.png");
     }
   
     .product-types__title {
@@ -79,7 +79,19 @@
 }
 
 @media screen and (min-width:768px) {
-  .product-types-prom .product-types__title::before {
+  .product-types-standart .product-types__title::before {
+      width: 32px;
+      height: 36px;
       background-image: url('../img/svg/super-d.svg');   
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .product-types-standart {
+    .product-types__item:hover {    
+      .product-types__item-btn {
+        background: #00357A;
+      }
+    }
   }
 }

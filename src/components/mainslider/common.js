@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function(){
                 type: 'loop',
                 perPage: 1,
                 arrows: true,
+                gap:24,
                 breakpoints: {
                     1023: {
                         arrows: false,

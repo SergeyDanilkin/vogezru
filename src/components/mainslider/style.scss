@@ -58,10 +58,11 @@
 }
 @media screen and (min-width:1024px) {
   .mainslider {
+
+
     &__inner {
       display: flex;
 
-      
     }
 
     &__top {
@@ -110,6 +111,10 @@
       }
     }
 
+    .splide__pagination {
+      bottom:-68px;
+    }
+
     .splide__arrows {
       left:0;
       bottom: 0;
@@ -121,5 +126,33 @@
         margin-right: 0;
       }
     }
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .mainslider {
+
+    &__top {
+      padding:48px 0 48px 48px;
+    }
+
+    &__title {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 52px;
+    }
+    &__text {
+      line-height: 28px;
+    }
+
+    &__btns {
+      margin-top: 76px;
+    }
+
+  }
+}
+@media screen and (min-width:1440px) {
+  .mainslider {
+    padding-top: 32px;
   }
 }

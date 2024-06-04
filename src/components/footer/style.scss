@@ -1,5 +1,9 @@
 footer {
     background: #0A1F33;
+
+    a:hover {
+        color: #0089CC!important;
+    }
 }
 .footer {
     &__top {
@@ -96,6 +100,9 @@ footer {
 
     &__region-phone {
         flex-shrink: 0;
+        
+        color:#05ADFF;
+        
     }
 
     &__region-name {
@@ -128,6 +135,7 @@ footer {
         line-height: 24px;
         color: #FFF;
         margin-bottom: 16px;
+        text-align: center;
     }
 
     &__bottom-promicom {
@@ -158,6 +166,7 @@ footer {
         
     }
 
+
 }
 
 
@@ -185,6 +194,7 @@ footer {
 
         &__bottom-copyright {
             margin-bottom: 0;
+            text-align: left;
         }
 
         &__bottom-wrapper{
@@ -229,7 +239,15 @@ footer {
 }
 
 @media screen and (min-width: 1440px) {
+    footer {
+        margin-top: 72px;
+    }
     .footer {
+        &__title {
+            font-size: 24px;
+            line-height: 32px;
+            margin-bottom: 24px;
+        }
         &__col {
             width: calc(25% - 24px);
         }
@@ -237,14 +255,35 @@ footer {
             ul {
                 li {
                     margin-bottom: 16px;
+                    a {
+                        font-size: 16px;
+                        line-height: 24px;
+                        font-weight: 700;
+                    }
                 }
             }
             
         }
 
+        &__phone {
+            a {
+                font-size: 24px;
+                line-height: 32px;
+            }
+
+        }
+
         &__region {
             margin-bottom: 16px;
         }
+        &__region-title {
+            font-size: 18px;
+            line-height: 28px;
+
+        }
+
+
+
         &__region:last-child {
             margin-bottom: 0px;
         }

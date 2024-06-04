@@ -162,9 +162,13 @@
   .splide__pagination {
     position: relative;
     bottom: 0;
-    margin-top: 24px;
+    margin-top: 14px;
     justify-content: flex-start;
     padding: 0;
+
+    li {
+      margin-top: 10px;
+    }
   }
 }
 
@@ -217,6 +221,8 @@
 
 @media screen and (min-width:1440px) {
   .product-types {
+    padding-top: 0;
+    padding-bottom: 32px;
     &__inner {
       padding: 64px 64px 104px 64px;
     }
@@ -225,6 +231,10 @@
       font-size: 32px;
       line-height: 44px;
     }   
+
+    &__text{
+      max-width: 1024px;
+    }
     
     &__item {
       &-bg {
@@ -238,8 +248,24 @@
         transition-duration: 0.7s;
         height: 100%;
       }
+
+      .product-types__item-title a {
+        color: #0089CC;
+      }      
+      .product-types__item-btn {
+        background: #0089CC;
+      }
     }
 
+    
+      .splide__arrows {
+        bottom: -72px;
+      }
 
+      .splide__pagination {
+        position: absolute;
+        bottom: -56px;
+      }
+    
   }
 }

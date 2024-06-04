@@ -38,6 +38,11 @@
           background: #00357A;
       }
     }
+
+    .splide__arrows .splide__arrow {
+      background-color: #FFF;
+      background-image: url('../img/svg/left2.svg');
+    }
 }
 
 @media screen and (min-width:768px) {
@@ -46,5 +51,14 @@
       height: 32px;
       background-image: url('../img/svg/factory-d.svg');   
     
+  }
+}
+@media screen and (min-width:1440px) {
+  .product-types-prom {
+    .product-types__item:hover {    
+      .product-types__item-btn {
+        background: #00357A;
+      }
+    }
   }
 }

@@ -15,13 +15,20 @@
     }
 
     &__text {
+        font-size: 16px;
+        
+
+        b {
+            font-size: 18px;
+        }
+        
         strong {
             font-weight: 600;
         }
     }
 
     &__btns {
-        margin-top: 12px;
+        margin-top: 24px;
     }
 
     &__btn {
@@ -92,6 +99,7 @@
 }
 @media screen and (min-width: 1440px) {
     .about-company {
+        margin-top: 48px;
         &__text {
             b {
                 font-size: 32px;

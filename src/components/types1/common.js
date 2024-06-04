@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function(){
                         
                     },
                     767: {
-                        gap: 0,
+                        gap: 24,
                         perPage: 1,
                         arrows: false,
                     },

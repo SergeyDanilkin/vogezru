@@ -28,6 +28,12 @@
           background: #0089CC;
       }
     }
+
+
+    .splide__arrows .splide__arrow {
+      background-color: #FFF;
+      background-image: url('../img/svg/left2.svg');
+    }
 }
 
 @media screen and (min-width:768px) {
